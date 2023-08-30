@@ -5,6 +5,8 @@ public class Program {
         var pizza = new Pizza();
         int option = 0;
 
+
+
         while (option == 0 || option < 1 || option > 2) {
             Console.Clear();
             Console.WriteLine("Bem-vindo ao Projeto de Pizzaria");
@@ -17,28 +19,17 @@ public class Program {
             option = int.Parse(Console.ReadLine());
         }
 
-        if (option == "1"){
-            Console.WriteLine("Adicionar uma pizza! ");
-            Console.WriteLine("Digite o nome da pizza: ");
-            var nome = Console.ReadLine();
-
-            Console.WriteLine("Digite os ingredientes da pizza separado por virgula: ");
-            var ingredientes = Console.ReadLine().ToArray();
-
-            Console.WriteLine("Digite o preço da pizza: ");
-            var preco = int.Parse(Console.ReadLine());
-
-            pizza.Nome = nome;
-            pizza.Ingredientes = ingredientes;
-            pizza.Preco = preco;
-
-            Console.WriteLine(pizza);
-        }
+        switch (option){
+            case option == 1
+                  menu.addPizaa
+        }  
+        
 
         
 
     }
-} 
 
+
+}
  
 

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus Lopes\\.nuget\\packages\\": {}
+    "C:\\Users\\breno_nunes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus Lopes\\OneDrive\\Área de Trabalho\\Trabalho_c#\\projetoPizzaria\\Pizzaria.csproj",
+      "projectUniqueName": "C:\\Users\\breno_nunes\\Pizzaria\\Pizzaria.csproj",
       "projectName": "Pizzaria",
-      "projectPath": "C:\\Users\\Matheus Lopes\\OneDrive\\Área de Trabalho\\Trabalho_c#\\projetoPizzaria\\Pizzaria.csproj",
-      "packagesPath": "C:\\Users\\Matheus Lopes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus Lopes\\OneDrive\\Área de Trabalho\\Trabalho_c#\\projetoPizzaria\\obj\\",
+      "projectPath": "C:\\Users\\breno_nunes\\Pizzaria\\Pizzaria.csproj",
+      "packagesPath": "C:\\Users\\breno_nunes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\breno_nunes\\Pizzaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matheus Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\breno_nunes\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
