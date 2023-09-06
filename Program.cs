@@ -2,7 +2,6 @@ public class Program {
     public static void Main() {
 
         // VARIAVEIS
-        var pizza = new Pizza();
         int option = 0;
 
 
@@ -19,10 +18,14 @@ public class Program {
             option = int.Parse(Console.ReadLine());
         }
 
-        switch (option){
-            case option == 1
-                  menu.addPizaa
-        }  
+        switch (option)
+        {
+            case 1:
+                var (nome, ingredientes, preco) = Menu.CreatePizza();
+                var pizza = new Pizza(nome, ingredientes, preco);
+                Console.WriteLine(pizza);
+            break; 
+         } 
         
 
         
