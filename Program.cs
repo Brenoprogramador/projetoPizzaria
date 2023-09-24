@@ -25,9 +25,9 @@ class Program
             int escolha;
             if (!int.TryParse(Console.ReadLine(), out escolha))
             {
-                Console.Write("---------------------------------------------");
+                Console.WriteLine("---------------------------------------------");
                 Console.WriteLine("Opção inválida. Tente novamente.");
-                Console.Write("---------------------------------------------");
+                Console.WriteLine("---------------------------------------------");
                 continue;
             }
 
@@ -211,9 +211,9 @@ class Program
                     break;
 
                 case 6:
-                    Console.Write("---------------------------------------------");
+                    Console.WriteLine("---------------------------------------------");
                     Console.WriteLine("Saindo do programa.");
-                    Console.Write("---------------------------------------------");
+                    Console.WriteLine("---------------------------------------------");
                     return;
 
                 default:
