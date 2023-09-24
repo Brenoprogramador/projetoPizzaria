@@ -6,7 +6,7 @@ public class Program {
 
 
 
-        while (option == 0 || option < 1 || option > 2) {
+        while (option == 0 || option < 1 || option > 3) {
             Console.Clear();
             Console.WriteLine("Bem-vindo ao Projeto de Pizzaria");
             Console.WriteLine("--------------------------------");
