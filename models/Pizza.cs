@@ -1,14 +1,13 @@
-﻿public class Pizza {
-    public string Nome {get; set;}
-    public double Preco {get; set;}
-    public string[] Ingredientes {get; set;} 
+﻿class Pizza
+{
+    public string Nome { get; }
+    public string[] Ingredientes { get; }
+    public decimal Valor { get; }
 
-    public Pizza(string nome, string[] ingredientes, double preco) {
+    public Pizza(string nome, string[] ingredientes, decimal valor)
+    {
         Nome = nome;
-        Preco = preco;
         Ingredientes = ingredientes;
-    }
-    public override string ToString(){
-        return $"nome: {Nome}\ningredientes: {Ingredientes}\npreço: {Preco}";
+        Valor = valor;
     }
 }
